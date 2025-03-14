@@ -2,6 +2,14 @@
 Changelog for package tf_conversions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Drop nonexistent rosmake doc builder. (`#235 <https://github.com/savioke/geometry/issues/235>`_)
+* removes extra semicolon for function definitions (`#240 <https://github.com/savioke/geometry/issues/240>`_)
+* updated library install for better portability. (`#208 <https://github.com/savioke/geometry/issues/208>`_) (`#214 <https://github.com/savioke/geometry/issues/214>`_)
+  Co-authored-by: Sean Yen <seanyen@microsoft.com>
+* Contributors: Kenji Brameld (TRACLabs), Mike Purvis, Tully Foote
+
 1.13.2 (2020-06-08)
 -------------------
 

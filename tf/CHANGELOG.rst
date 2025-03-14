@@ -2,6 +2,23 @@
 Changelog for package tf
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Drop CXX standards logcxx patch
+* Switch to new boost/bind/bind.hpp
+* Drop nonexistent rosmake doc builder. (`#235 <https://github.com/savioke/geometry/issues/235>`_)
+* removes extra semicolon for function definitions (`#240 <https://github.com/savioke/geometry/issues/240>`_)
+* fixed quaternion_from_euler modifying the input in some cases (`#241 <https://github.com/savioke/geometry/issues/241>`_)
+  * fixed quaternion_from_euler without using in-place math operators
+* Add deprecation warning to tf view_frames. (`#217 <https://github.com/savioke/geometry/issues/217>`_)
+* Fixed typo Traonsform -> Transform (`#224 <https://github.com/savioke/geometry/issues/224>`_)
+* Fix view_frames by removing legacy version check. (`#222 <https://github.com/savioke/geometry/issues/222>`_)
+  It crashed in Python 3 (Noetic) because of a missing byte string
+  conversion. Given that this code block had some other potentials for
+  bugs and that graphviz 2.8 is from 2006, it should be safe to simplify
+  it to a single `check_call`.
+* Contributors: Artur Miller, Jochen Sprickerhof, Kenji Brameld (TRACLabs), Leopold Palomo-Avellaneda, Michael Grupp, Mike Purvis, Salih Marangoz, lauralindzey
+
 1.13.2 (2020-06-08)
 -------------------
 * fix shebang line for python3 (`#212 <https://github.com/ros/geometry/issues/212>`_)
