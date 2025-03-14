@@ -2,8 +2,8 @@
 Changelog for package eigen_conversions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * updated library install for better portability. (`#208 <https://github.com/savioke/geometry/issues/208>`_) (`#214 <https://github.com/savioke/geometry/issues/214>`_)
   Co-authored-by: Sean Yen <seanyen@microsoft.com>
 * Contributors: Tully Foote

@@ -2,8 +2,8 @@
 Changelog for package tf
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * Drop CXX standards logcxx patch
 * Switch to new boost/bind/bind.hpp
 * Drop nonexistent rosmake doc builder. (`#235 <https://github.com/savioke/geometry/issues/235>`_)

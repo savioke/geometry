@@ -2,8 +2,8 @@
 Changelog for package kdl_conversions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * removes extra semicolon for function definitions (`#240 <https://github.com/savioke/geometry/issues/240>`_)
 * updated library install for better portability. (`#208 <https://github.com/savioke/geometry/issues/208>`_) (`#214 <https://github.com/savioke/geometry/issues/214>`_)
   Co-authored-by: Sean Yen <seanyen@microsoft.com>
